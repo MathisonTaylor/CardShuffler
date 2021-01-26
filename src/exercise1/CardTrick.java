@@ -63,30 +63,31 @@ public class CardTrick
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
      */
-    private static void printInfo() {
+    private static void printInfo()
+    {
     
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println("My name is Andraws, but you can call me Andraws. Sorry, no nicknames :(");
         System.out.println();
         
         System.out.println("My career ambitions:");
-        System.out.println("-- Start writing articles/posts on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
+        System.out.println("-- Own my own restaurant");
+        System.out.println("-- Work towards my dreams and goals");
 	System.out.println();	
 
         System.out.println("My hobbies:");
-        System.out.println("-- Playing with technology");
-        System.out.println("-- Riding my motorcycle");
+        System.out.println("-- Boardgames and videogames");
+        System.out.println("-- Driving my car");
         System.out.println("-- Cooking");
-        System.out.println("-- Listening to music");
+        System.out.println("-- Designing and coding");
         System.out.println();
         
         System.out.println("Music I like:");
-        System.out.println("-- Pink Floyd / David Gilmore");
-        System.out.println("-- Green Day");
-        System.out.println("-- Many other styles and genres as well...");    
+        System.out.println("-- Rap");
+        System.out.println("-- Rock/Punk");
+        System.out.println("-- I used to listen to a lot of new school metal");    
     }
 
 }
