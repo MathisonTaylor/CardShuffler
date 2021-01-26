@@ -1,5 +1,7 @@
 package exercise1;
 
+import java.util.Objects;
+
 /**
  * A class that models playing card Objects. Cards have 
  * a value (note that Ace = 1, Jack = 11, Queen = 12, King = 13)
@@ -9,6 +11,7 @@ package exercise1;
  * add your name as a modifier.
  * @author dancye
  * @author Paul Bonenfant May 2020
+ * @author Ji Li Jan 26 2020
  */
 public class Card {
 
@@ -42,5 +45,19 @@ public class Card {
      */
     public void setValue(int value) {
         this.value = value;
-    }  
+    }
+
+    @Override
+    public String toString() {
+        return getSuit() + " of " + getValue();
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        return hash;
+    }
+
+
+    
 }
