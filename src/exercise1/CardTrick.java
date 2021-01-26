@@ -54,25 +54,25 @@ public class CardTrick {
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
 
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println("My name is Muhammad Shah");
         System.out.println();
 
         System.out.println("My career ambitions:");
-        System.out.println("-- Start writing articles/posts on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
+        System.out.println("-- To successfully pass this program");
+        System.out.println("-- To become a Software Developer");
         System.out.println();
 
         System.out.println("My hobbies:");
         System.out.println("-- Playing with technology");
-        System.out.println("-- Riding my motorcycle");
-        System.out.println("-- Cooking");
+        System.out.println("-- Tuning my Car");
+        System.out.println("-- Playing games");
         System.out.println("-- Listening to music");
         System.out.println();
 
         System.out.println("Music I like:");
-        System.out.println("-- Pink Floyd / David Gilmore");
-        System.out.println("-- Green Day");
-        System.out.println("-- Many other styles and genres as well...");
+        System.out.println("-- sidhu moosewala/ punjabi music");
+        System.out.println("-- So high");
+        System.out.println("-- Rap/hip hop...");
     }
 
 }
