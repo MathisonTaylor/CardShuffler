@@ -42,7 +42,7 @@ public class CardTrick {
         
         //print out the hand, for testing only
         //TODO: comment out or delete next statement when merge into master.
-        System.out.println(Arrays.toString(hand));
+        //System.out.println(Arrays.toString(hand));
 
         // insert code to ask the user for Card value and suit, 
         //create their card
@@ -82,24 +82,23 @@ public class CardTrick {
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println("My name is Ji Li, and you can call me Ji");
         System.out.println();
         
         System.out.println("My career ambitions:");
-        System.out.println("-- Start writing articles/posts on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
+        System.out.println("-- Find a job first,");
+        System.out.println("-- then I go from there");
 	System.out.println();	
 
         System.out.println("My hobbies:");
-        System.out.println("-- Playing with technology");
-        System.out.println("-- Riding my motorcycle");
-        System.out.println("-- Cooking");
+        System.out.println("-- Watch NBA and NFL");
+        System.out.println("-- Fish Keeping");
+        System.out.println("-- Camping");
         System.out.println("-- Listening to music");
         System.out.println();
         
         System.out.println("Music I like:");
-        System.out.println("-- Pink Floyd / David Gilmore");
-        System.out.println("-- Green Day");
+        System.out.println("-- Michael Jackson / Metallica");
         System.out.println("-- Many other styles and genres as well...");    
     }
 
