@@ -7,7 +7,9 @@ package exercise1;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 2021
+ * @author Scott Tyler jan 2021
  */
+import java.util.Scanner;
 public class CardTrick {
 
     public static void main(String[] args) {
@@ -15,11 +17,39 @@ public class CardTrick {
         Card[] hand = new Card[7];
 
         for (int i = 0; i < hand.length; i++) {
+           
             Card card = new Card();
+            
+            card.setValue((int)(Math.random() * 13)+1);
+            
+            card.setSuit(Card.SUITS[(int)(Math.random() * 3)]);
+            
+           // System.out.println("Suit: " + card.getSuit()+ "\nValue: " + card.getValue());
+            
+            hand[i] = card;
             //card.setValue(insert call to random number generator here)
             //card.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
-
+        System.out.println("Guess the card number value");
+        
+        Scanner in = new Scanner(System.in);
+        
+        int guessValue = in.nextInt();
+        
+        System.out.println("Guess the card suit(Hearts,Diamonds,Clubs,Spades)");
+        
+        Scanner in2 = new Scanner(System.in);
+        
+        String guessSuit = in2.nextLine();
+        
+        for(int j=6; j>0; j--){
+        
+            if(guessValue == hand[j].getValue()&& guessSuit.equalsIgnoreCase(hand[j].getSuit())){
+            
+                printInfo();
+            }
+        }
+        
         // insert code to ask the user for Card value and suit, create their card
         // and search the hand here.
         // If the guess is successful, invoke the printInfo() method below
