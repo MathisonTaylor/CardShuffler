@@ -45,7 +45,8 @@ public class CardTrick {
         for(int j=6; j>0; j--){
         
             if(guessValue == hand[j].getValue()&& guessSuit.equalsIgnoreCase(hand[j].getSuit())){
-            
+                
+                //I'm done!
                 printInfo();
             }
         }
