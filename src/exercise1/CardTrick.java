@@ -24,7 +24,7 @@ public class CardTrick {
             
             card.setSuit(Card.SUITS[(int)(Math.random() * 4)]);
             
-            System.out.println("Suit: " + card.getSuit()+ "\nValue: " + card.getValue());
+            //System.out.println("Suit: " + card.getSuit()+ "\nValue: " + card.getValue());
             
             hand[i] = card;
             //card.setValue(insert call to random number generator here)
